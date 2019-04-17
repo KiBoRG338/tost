@@ -1,5 +1,5 @@
 import React from "react";
-import { TEST2, TEST3 } from "../../Config/routs";
+import { TEST2, TEST3 } from "Config/routs";
 
 import { Link } from "react-router-dom";
 
