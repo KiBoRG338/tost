@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import routes from './src/Config/routes'
+import routes from 'Config/routes'
 
 
 ReactDOM.render(

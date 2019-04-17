@@ -1,7 +1,7 @@
 import { TEST1, TEST2, TEST3 } from './routs';
-import Test1 from '../Pages/Test1'
-import Test2 from '../Pages/Test2'
-import Test3 from '../Pages/Test3'
+import Test1 from 'Pages/Test1'
+import Test2 from 'Pages/Test2'
+import Test3 from 'Pages/Test3'
 
 const routes = [
     {

@@ -1,3 +1,18 @@
 {
-    "presets": ["env", "react"]
+    "presets": ["env", "react"],
+    "plugins": [
+      ["module-resolver", {
+     
+        "alias": {
+          // "test": "./test",
+          // "underscore": "lodash",
+          "Pages": "./src/Pages",
+          "Config": "./src/Config",
+          "Components": "./src/Components"
+          // "components": "./Components",
+          // "components": "./Components",
+
+        }
+      }]
+    ]
   }
