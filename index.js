@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import { Provider } from 'react-redux'
+
+import store from './src/store'
 
 import routes from 'Config/routes'
 
 
 ReactDOM.render(
+  <Provider store={store}>
   <Router>
     { 
       routes.map((route, i) => (
@@ -17,6 +21,7 @@ ReactDOM.render(
         />
       ))
     }
-  </Router>,
+  </Router>
+  </Provider>,
   document.getElementById('root')
 );
