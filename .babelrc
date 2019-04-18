@@ -8,7 +8,9 @@
           // "underscore": "lodash",
           "Pages": "./src/Pages",
           "Config": "./src/Config",
-          "Components": "./src/Components"
+          "Components": "./src/Components",
+          "Actions": "./src/Actions",
+          "Reducers": "./src/Reducers"
           // "components": "./Components",
           // "components": "./Components",
 
